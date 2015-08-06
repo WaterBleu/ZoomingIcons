@@ -13,6 +13,11 @@
 		BDFC4D021B73CFD70057AA2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFC4D011B73CFD70057AA2A /* Images.xcassets */; };
 		BDFC4D051B73CFD70057AA2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFC4D031B73CFD70057AA2A /* LaunchScreen.xib */; };
 		BDFC4D111B73CFD70057AA2A /* ZoomingIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D101B73CFD70057AA2A /* ZoomingIconsTests.swift */; };
+		BDFC4D1B1B73D1290057AA2A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D1A1B73D1290057AA2A /* MenuViewController.swift */; };
+		BDFC4D1D1B73D3200057AA2A /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D1C1B73D3200057AA2A /* Icon.swift */; };
+		BDFC4D1F1B73D97D0057AA2A /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D1E1B73D97D0057AA2A /* IconCollectionViewCell.swift */; };
+		BDFC4D211B740F5F0057AA2A /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D201B740F5F0057AA2A /* DetailedViewController.swift */; };
+		BDFC4D231B7417320057AA2A /* ZoomingIconTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC4D221B7417320057AA2A /* ZoomingIconTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		BDFC4D0A1B73CFD70057AA2A /* ZoomingIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomingIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFC4D0F1B73CFD70057AA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDFC4D101B73CFD70057AA2A /* ZoomingIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomingIconsTests.swift; sourceTree = "<group>"; };
+		BDFC4D1A1B73D1290057AA2A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		BDFC4D1C1B73D3200057AA2A /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		BDFC4D1E1B73D97D0057AA2A /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
+		BDFC4D201B740F5F0057AA2A /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		BDFC4D221B7417320057AA2A /* ZoomingIconTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomingIconTransition.swift; path = ../ZoomingIconTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +87,15 @@
 		BDFC4CF71B73CFD70057AA2A /* ZoomingIcons */ = {
 			isa = PBXGroup;
 			children = (
+				BDFC4D221B7417320057AA2A /* ZoomingIconTransition.swift */,
 				BDFC4CFA1B73CFD70057AA2A /* AppDelegate.swift */,
 				BDFC4CFC1B73CFD70057AA2A /* ViewController.swift */,
-				BDFC4CFE1B73CFD70057AA2A /* Main.storyboard */,
+				BDFC4D1A1B73D1290057AA2A /* MenuViewController.swift */,
+				BDFC4D201B740F5F0057AA2A /* DetailedViewController.swift */,
+				BDFC4D1C1B73D3200057AA2A /* Icon.swift */,
+				BDFC4D1E1B73D97D0057AA2A /* IconCollectionViewCell.swift */,
 				BDFC4D011B73CFD70057AA2A /* Images.xcassets */,
+				BDFC4CFE1B73CFD70057AA2A /* Main.storyboard */,
 				BDFC4D031B73CFD70057AA2A /* LaunchScreen.xib */,
 				BDFC4CF81B73CFD70057AA2A /* Supporting Files */,
 			);
@@ -213,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFC4CFD1B73CFD70057AA2A /* ViewController.swift in Sources */,
+				BDFC4D1F1B73D97D0057AA2A /* IconCollectionViewCell.swift in Sources */,
+				BDFC4D211B740F5F0057AA2A /* DetailedViewController.swift in Sources */,
+				BDFC4D1B1B73D1290057AA2A /* MenuViewController.swift in Sources */,
+				BDFC4D1D1B73D3200057AA2A /* Icon.swift in Sources */,
 				BDFC4CFB1B73CFD70057AA2A /* AppDelegate.swift in Sources */,
+				BDFC4D231B7417320057AA2A /* ZoomingIconTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
